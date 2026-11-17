@@ -20,6 +20,10 @@ This extension watches for that specific localhost tab and automatically closes 
 
 ## Install
 
+### From the Chrome Web Store
+
+Install **[AWS VPN Tab Closer](https://chromewebstore.google.com/detail/aws-vpn-tab-closer/lkkhmhcadjnmjigpppggfefjhikehjda)** from the Chrome Web Store.
+
 ### From Source
 
 1. Clone this repo
