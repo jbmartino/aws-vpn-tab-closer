@@ -10,6 +10,10 @@ Every time the AWS VPN client re-authenticates, it pops open a browser tab on `h
 
 ![AWS VPN auth tab](images/vpn-auth-tab.png)
 
+Newer versions of the AWS VPN client show an "Authentication successful" page instead. The extension closes this one too:
+
+![AWS VPN authentication successful tab](images/vpn-auth-success.png)
+
 ## How It Works
 
 This extension watches for that specific localhost tab and automatically closes it once the success message appears. Your initial sign-in flow is left untouched. It only acts after credentials have already been accepted.
